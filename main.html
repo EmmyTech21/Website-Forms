@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form-section</title>
+</head>
+<body>
+    <section class="contact">
+        <div class="container">
+            <div class="text">
+                <h2>Be A Black Hairspray VIP</h2>
+                <p>Sign Up To Receive Our
+                     Newsletter For Special Sales & Promos!
+                      Plus 10% Off Your First Order!</p>
+            </div>
+            <form class="form">
+
+                <p>
+                    <label >
+                        Name
+                    </label>
+                    <input type="text" id="name" placeholder="FullName" required autofocus>
+                </p>
+               
+                <p>
+                    <label >
+                       Email
+                    </label>
+                    <input type="email" id="email" placeholder="Email" required>
+                </p>
+
+                <p>
+                    <label >
+                        PassWord
+                    </label>
+                    <input type="password" id="password" placeholder="password" required>
+                </p>
+
+                <p>
+                    <label >
+                        Confirm Password 
+                    </label>
+                    <input type="password" id="password" placeholder="password" required>
+                </p>
+
+                <p>
+                   <label>
+                    Date of Birth
+                </label>
+                    <input type="date" name="Date" placeholder="Date of Birth">
+                   
+                </p>
+
+                <p>
+                   <h3>Gender</h3>
+                   
+                    <label>Female</label>
+                    <input type="radio" id="radio">
+                    <label>male</label>
+                    <input type="radio" id="male" name="male">
+                    <label>Others</label>
+                    <input type="radio" id="Others" name="Others">
+                 
+                </p>
+                <p>
+                    <label>Country</label>
+                    <input list="Country" required>
+                    <datalist id="Country">
+                        <option value="Nigeria">
+                        <option value="Ghana">
+                        <option value="South-Africa">
+                        <option value="Kenya">
+                    </datalist>
+                </p>
+
+                <p>
+              <label>Terms and Conditions click here</label>
+              <input type="checkbox" id="checkbox">      
+                </p>
+
+                <p>
+                    <label>message</label>
+                    <textarea name="message" id="msg" placeholder="your comment here"></textarea>
+                </p>
+                <input type="submit"  class="submit" value="Submit">
+            </form>
+        </div>
+
+    </section>
+
+</body>
+</html>
